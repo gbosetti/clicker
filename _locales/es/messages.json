@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Estado de logueo:"
+  },
+  "export_logs":{
+    "message": "Exportar los registros"
+  },
+  "clear_logs":{
+    "message": "Eliminar los registros"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "Los registros fueron eliminados exitosamente."
+  },
+  "logs_cleaning_failed":{
+    "message": "Algo salió mal con la limpieza de los registros. Por favor, inténtalo nuevamente."
+  },
+  "yes":{
+    "message": "Si"
+  },
+  "no":{
+    "message": "No"
+  },
+  "are_you_sure":{
+    "message": "¿Estás seguro/a?"
+  },
+  "enabled":{
+    "message": "Activado"
+  },
+  "disabled":{
+    "message": "Desactivado"
+  }
+}

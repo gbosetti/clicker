@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Logging status:"
+  },
+  "export_logs":{
+    "message": "Export logs"
+  },
+  "clear_logs":{
+    "message": "Clear logs"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "The logs were successfully cleared"
+  },
+  "logs_cleaning_failed":{
+    "message": "Something went wrong with the cleaning. Please, try again."
+  },
+  "yes":{
+    "message": "Yes"
+  },
+  "no":{
+    "message": "No"
+  },
+  "are_you_sure":{
+    "message": "Are you sure?"
+  },
+  "enabled":{
+    "message": "Enabled"
+  },
+  "disabled":{
+    "message": "Disabled"
+  }
+}

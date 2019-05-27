@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Status de registro:"
+  },
+  "export_logs":{
+    "message": "Exportar os logs"
+  },
+  "clear_logs":{
+    "message": "Limpar os logs"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "Os logs foram limpos com sucesso"
+  },
+  "logs_cleaning_failed":{
+    "message": "Algo deu errado com a limpeza. Por favor, tente novamente."
+  },
+  "yes":{
+    "message": "Sim"
+  },
+  "no":{
+    "message": "Não"
+  },
+  "are_you_sure":{
+    "message": "Tem certeza?"
+  },
+  "enabled":{
+    "message": "Ativado"
+  },
+  "disabled":{
+    "message": "Desativado"
+  }
+}

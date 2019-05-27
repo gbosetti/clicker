@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Stato della registrazione:"
+  },
+  "export_logs":{
+    "message": "Esportare i registri"
+  },
+  "clear_logs":{
+    "message": "Pulire i registri"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "I registri sono stati puliti con successo."
+  },
+  "logs_cleaning_failed":{
+    "message": "Qualcosa è andato storto con la pulizia. Si prega riprovare."
+  },
+  "yes":{
+    "message": "Sì"
+  },
+  "no":{
+    "message": "No"
+  },
+  "are_you_sure":{
+    "message": "Sei sicuro·a?"
+  },
+  "enabled":{
+    "message": "Activado"
+  },
+  "disabled":{
+    "message": "Desactivado"
+  }
+}

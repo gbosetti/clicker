@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Naplózás állapota:"
+  },
+  "export_logs":{
+    "message": "Naplók exportálása"
+  },
+  "clear_logs":{
+    "message": "Naplók törlése"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "A naplók sikeresen törlődtek"
+  },
+  "logs_cleaning_failed":{
+    "message": "Valami baj történt a naplók tisztításával. Kérlek próbáld újra."
+  },
+  "yes":{
+    "message": "Igen"
+  },
+  "no":{
+    "message": "Nem"
+  },
+  "are_you_sure":{
+    "message": "Biztos benne?"
+  },
+  "enabled":{
+    "message": "Aktivált"
+  },
+  "disabled":{
+    "message": "Deaktivált"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options.css"/>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-toggle/css/bootstrap-toggle.css"/>
+
+    <script src="../../node_modules/webextension-polyfill/dist/browser-polyfill.js"></script>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../node_modules/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+  </head>
+
+<body>
+  <form class="align-items-center form">
+
+    <div class="form-group">
+        <label id="status_label" for="logging_status"></label>
+        <div class="checkbox">
+             <input id="logging_status" class="btn-group-justified" type="checkbox" data-toggle="toggle" data-on="Enabled" data-off="Disabled" data-onstyle="success"/>
+        </div>
+   
+    </div>
+
+    <div class="form-group">
+      <button id="export_logs" type="button" class="btn btn-primary form-control"></button>
+    </div>
+
+    <div class="form-group">
+      <button id="clear_logs" type="button" class="btn btn-primary form-control" data-toggle="popover" tabindex="1" data-trigger="focus"></button>
+    </div>
+
+  </form>
+
+  <script src="options.js"></script>
+</body>
+
+</html>

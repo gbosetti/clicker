@@ -1,0 +1,18 @@
+{
+  "name": "clicker",
+  "version": "1.0.0",
+  "description": "Clicker is a logging system aimed at research purposes. It also keeps track of the target DOM element, the timestamp and the URL of the clicked element.",
+  "main": "background.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-toggle": "^2.2.2",
+    "jquery": "^3.3.1",
+    "webextension-polyfill": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

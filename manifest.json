@@ -1,0 +1,52 @@
+{
+
+  "manifest_version": 2,
+  "name": "Clicker",
+  "version": "1.0",
+  "default_locale": "en",
+
+  "description": "Counts the number of clicks the user performs while enabled.",
+
+  "icons": {
+    "48": "resources/img/enabled-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "resources/img/enabled-48.png"
+    },
+    "default_title": "Clicker",
+    "default_popup": "resources/popup/options.html"
+  },
+
+  "background": {
+    "scripts": [
+      "node_modules/webextension-polyfill/dist/browser-polyfill.js",
+      "background.js"
+    ]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": [
+        "node_modules/webextension-polyfill/dist/browser-polyfill.js",
+        "content_scripts/IdTreeXPathEngine.js",
+        "content_scripts/content.js"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "/resources/*"
+  ],
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "notifications"
+  ]
+
+}

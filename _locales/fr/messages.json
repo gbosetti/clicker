@@ -1,0 +1,32 @@
+{
+  "status_tool":{
+    "message": "Etat de la journalisation:"
+  },
+  "export_logs":{
+    "message": "Exporter les journaux"
+  },
+  "clear_logs":{
+    "message": "Effacer les journaux"
+  },
+  "logs_sucessfully_cleared":{
+    "message": "Les journaux ont été effacés avec succès"
+  },
+  "logs_cleaning_failed":{
+    "message": "Quelque chose s'est mal passé lors du nettoyage. Veuillez réessayer."
+  },
+  "yes":{
+    "message": "Oui"
+  },
+  "no":{
+    "message": "Non"
+  },
+  "are_you_sure":{
+    "message": "Êtes-vous sûr?"
+  },
+  "enabled":{
+    "message": "Activé"
+  },
+  "disabled":{
+    "message": "Désactivé"
+  }
+}
